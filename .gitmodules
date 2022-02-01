@@ -1,0 +1,90 @@
+[submodule "manufacturers/eurorack-4ms-SWN"]
+	path = manufacturers/eurorack-4ms-SWN
+	url = git@git-rhino:rhinocerose/eurorack-4ms-SWN
+[submodule "manufacturers/eurorack-4ms-SMR"]
+	path = manufacturers/eurorack-4ms-SMR
+	url = git@git-rhino:rhinocerose/eurorack-4ms-SMR
+[submodule "manufacturers/eurorack-4ms-DLD"]
+	path = manufacturers/eurorack-4ms-DLD
+	url = git@git-rhino:rhinocerose/eurorack-4ms-DLD
+[submodule "manufacturers/eurorack-4ms-pcb-SCMv3"]
+	path = manufacturers/eurorack-4ms-pcb-SCMv3
+	url = git@git-rhino:rhinocerose/eurorack-4ms-pcb-SCMv3
+[submodule "manufacturers/eurorack-4ms-PEG-v2"]
+	path = manufacturers/eurorack-4ms-PEG-v2
+	url = git@git-rhino:rhinocerose/eurorack-4ms-PEG-v2
+[submodule "manufacturers/eurorack-4ms-QCDv2"]
+	path = manufacturers/eurorack-4ms-QCDv2
+	url = git@git-rhino:rhinocerose/eurorack-4ms-QCDv2
+[submodule "manufacturers/eurorack-4ms-QPLFO-v22"]
+	path = manufacturers/eurorack-4ms-QPLFO-v22
+	url = git@git-rhino:rhinocerose/eurorack-4ms-QPLFO-v22
+[submodule "manufacturers/eurorack-4ms-SCM"]
+	path = manufacturers/eurorack-4ms-SCM
+	url = git@git-rhino:rhinocerose/eurorack-4ms-SCM
+[submodule "manufacturers/eurorack-4ms-STS"]
+	path = manufacturers/eurorack-4ms-STS
+	url = git@git-rhino:rhinocerose/eurorack-4ms-STS
+[submodule "manufacturers/eurorack-mutable"]
+	path = manufacturers/eurorack-mutable
+	url = git@git-rhino:rhinocerose/eurorack-mutable
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-Alps"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-Alps
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-Alps
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-beehive"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-beehive
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-beehive
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-m-brane"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-m-brane
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-m-brane
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-monsoon"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-monsoon
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-monsoon
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-nrings"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-nrings
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-nrings
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-pachinko"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-pachinko
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-pachinko
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-pique"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-pique
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-pique
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-plancksii"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-plancksii
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-plancksii
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-quarks"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-quarks
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-quarks
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-t_u"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-t_u
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-t_u
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-threshold"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-threshold
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-threshold
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-twiigs"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-twiigs
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-twiigs
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-twist"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-twist
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-twist
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-typhoon"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-typhoon
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-typhoon
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-ubraidsii"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-ubraidsii
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-ubraidsii
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-uburst"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-uburst
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-uburst
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-ugrids"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-ugrids
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-ugrids
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-uo_c"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-uo_c
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-uo_c
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-utest"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-utest
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-utest
+[submodule "manufacturers/jakplugg/eurorack-jakplugg-utidesii"]
+	path = manufacturers/jakplugg/eurorack-jakplugg-utidesii
+	url = git@git-rhino:rhinocerose/eurorack-jakplugg-utidesii
