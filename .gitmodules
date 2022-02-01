@@ -31,3 +31,6 @@
 [submodule "manufacturers/eurorack-jakplugg"]
 	path = manufacturers/eurorack-jakplugg
 	url = git@git-rhino:rhinocerose/eurorack-jakplugg
+[submodule "manufacturers/eurorack-4ms"]
+	path = manufacturers/eurorack-4ms
+	url = git@git-rhino:rhinocerose/eurorack-4ms
