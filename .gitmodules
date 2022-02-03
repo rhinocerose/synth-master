@@ -34,3 +34,9 @@
 [submodule "manufacturers/eurorack-4ms"]
 	path = manufacturers/eurorack-4ms
 	url = git@git-rhino:rhinocerose/eurorack-4ms
+[submodule "manufacturers/eurorack-minisystem"]
+	path = manufacturers/eurorack-minisystem
+	url = git@git-rhino:rhinocerose/eurorack-minisystem
+[submodule "manufacturers/eurorack-westlicht"]
+	path = manufacturers/eurorack-westlicht
+	url = git@git-rhino:rhinocerose/eurorack-westlicht
