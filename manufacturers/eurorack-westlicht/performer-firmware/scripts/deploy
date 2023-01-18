@@ -1,0 +1,62 @@
+#!/usr/bin/env python
+
+import os
+import glob
+import shutil
+
+DEPLOY_DIR = 'build/deploy'
+
+items = [
+    {
+        'name': 'Bootloader',
+        'srcs': ['build/stm32/release/src/apps/bootloader/bootloader.hex'],
+        'dst': 'bootloader'
+    },
+    {
+        'name': 'Hardware Configuration',
+        'srcs': [
+            'build/stm32/release/src/apps/hwconfig/hwconfig_dac8568a.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_default.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_invert-leds_dac8568a.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_invert-leds.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_reverse-encoder_dac8568a.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_reverse-encoder_invert-leds_dac8568a.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_reverse-encoder_invert-leds.hex',
+            'build/stm32/release/src/apps/hwconfig/hwconfig_reverse-encoder.hex'
+        ],
+        'dst': 'hwconfig'
+    },
+    {
+        'name': 'Sequencer',
+        'srcs': ['build/stm32/release/src/apps/sequencer/sequencer.hex'],
+        'dst': 'sequencer'
+    },
+    {
+        'name': 'Tester',
+        'srcs': ['build/stm32/release/src/apps/tester/tester.hex'],
+        'dst': 'tester'
+    },
+    {
+        'name': 'Update',
+        'srcs': ['build/stm32/release/src/apps/sequencer/UPDATE.DAT'],
+        'dst': 'update'
+    }
+]
+
+if os.path.exists(DEPLOY_DIR):
+    shutil.rmtree(DEPLOY_DIR)
+
+os.makedirs(DEPLOY_DIR)
+
+for item in items:
+    print('deploying ' + item['name'] + ' ...')
+
+    dst_dir = os.path.join(DEPLOY_DIR, item['dst'])
+    os.makedirs(dst_dir)
+
+    files = []
+    for src in item['srcs']:
+        files += glob.glob(src)
+
+    for file in files:
+        shutil.copy(file, dst_dir)

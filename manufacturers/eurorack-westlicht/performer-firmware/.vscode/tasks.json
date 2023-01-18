@@ -1,0 +1,101 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build (Release)",
+            "group": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/stm32/release",
+            },
+            "command": "make",
+            "args": [
+                "-j"
+            ],
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "absolute"
+            }
+        },
+        {
+            "label": "Clean (Release)",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/stm32/release"
+            },
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+        },
+        {
+            "label": "Build (Debug)",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/stm32/debug",
+            },
+            "command": "make",
+            "args": [
+                "-j"
+            ],
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "absolute"
+            }
+        },
+        {
+            "label": "Clean (Debug)",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/stm32/debug"
+            },
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+        },
+        {
+            "label": "Flash",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/stm32/release"
+            },
+            "command": "make",
+            "args": [
+                "-j",
+                "flash_sequencer"
+            ],
+        },
+        {
+            "label": "Build Simulator",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/sim/debug"
+            },
+            "command": "make",
+            "args": [
+                "-j"
+            ],
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "absolute"
+            }
+        },
+        {
+            "label": "Clean Simulator",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/build/sim/debug"
+            },
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "absolute"
+            }
+        },
+
+    ]
+}

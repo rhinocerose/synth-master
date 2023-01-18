@@ -1,0 +1,9 @@
+#!/bin/sh
+
+export PS1="(performer) ${PS1}"
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ROOT="${DIR%/bin}"
+TOOLS_DIR=${TOOLS_DIR:=${ROOT}/tools}
+
+export PATH="${TOOLS_DIR}/gcc-arm-none-eabi/bin:${TOOLS_DIR}/openocd/bin:${PATH}"

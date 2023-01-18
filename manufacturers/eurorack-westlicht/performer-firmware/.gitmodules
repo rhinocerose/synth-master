@@ -1,0 +1,18 @@
+[submodule "src/platform/stm32/libs/libopencm3"]
+	path = src/platform/stm32/libs/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git
+[submodule "src/platform/sim/libs/soloud"]
+	path = src/platform/sim/libs/soloud
+	url = https://github.com/jarikomppa/soloud.git
+[submodule "src/platform/sim/libs/pybind11"]
+	path = src/platform/sim/libs/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "src/platform/sim/libs/tinyformat"]
+	path = src/platform/sim/libs/tinyformat
+	url = https://github.com/c42f/tinyformat.git
+[submodule "src/platform/sim/libs/args"]
+	path = src/platform/sim/libs/args
+	url = https://github.com/Taywee/args.git
+[submodule "src/platform/sim/libs/nanovg"]
+	path = src/platform/sim/libs/nanovg
+	url = https://github.com/memononen/nanovg.git
